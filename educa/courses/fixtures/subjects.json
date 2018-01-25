@@ -1,0 +1,49 @@
+[
+{
+  "fields": {
+    "slug": "machine-learning",
+    "title": "Machine Learning"
+  },
+  "model": "courses.subject",
+  "pk": 1
+},
+{
+  "fields": {
+    "title": "cs-001",
+    "overview": "cs-001",
+    "created": "2018-01-25T02:35:26.320Z",
+    "owner": 1,
+    "slug": "cs-001",
+    "subject": 1
+  },
+  "model": "courses.course",
+  "pk": 1
+},
+{
+  "fields": {
+    "course": 1,
+    "description": "Regression Analysis",
+    "title": "Regression Analysis"
+  },
+  "model": "courses.module",
+  "pk": 1
+},
+{
+  "fields": {
+    "course": 1,
+    "description": "K - Bias Theorem",
+    "title": "K - Bias Theorem"
+  },
+  "model": "courses.module",
+  "pk": 2
+},
+{
+  "fields": {
+    "course": 1,
+    "description": "Classification",
+    "title": "Classification"
+  },
+  "model": "courses.module",
+  "pk": 3
+}
+]
